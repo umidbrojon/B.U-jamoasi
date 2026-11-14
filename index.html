@@ -3,13 +3,161 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h2>Bunyod</h2>
-    <button>start</button>
-    <p>men bunyodman</p>
+    <header class="max-w-[1240px] m-auto my-[11px]">
+      <ul class="flex justify-between">
+        <li class="text-[15px] text-[##272727]">
+          Need help? Call us 112233344455
+        </li>
+        <li class="text-[15px] text-[##272727]">
+          Summer sale discount off 60% off! Shop Now
+        </li>
+        <li class="text-[15px] text-[##272727]">
+          2-3 business days delivery & free returns
+        </li>
+      </ul>
+      <div class="flex justify-between mt-[15px] items-center">
+        <h2 class="text-[31px] font-medium">
+          SHOP<span class="font-thin">LITE</span>
+        </h2>
+        <ul class="flex gap-[40px]">
+          <li class="text-[##272727] hover:text-[#FF6543]">HOME</li>
+          <li class="text-[##272727] hover:text-[#FF6543]">ABOUT</li>
+          <li class="text-[##272727] hover:text-[#FF6543]">SHOP</li>
+          <li class="text-[##272727] hover:text-[#FF6543]">BLOGS</li>
+          <li class="text-[##272727] hover:text-[#FF6543]">PAGES</li>
+          <li class="text-[##272727] hover:text-[#FF6543]">CONTACT</li>
+        </ul>
+        <div class="icons gap-[20px] flex">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-cart-plus"></i>
+        </div>
+      </div>
+    </header>
+    <div class="hero"></div>
     <script src="app.js"></script>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div
+            class="max-w-[1240px] m-auto justify-center items-center gap-[80px] flex"
+          >
+            <div class="left">
+              <h2 class="text-[#272727] text-[51px]">GOPRO HERO9 BLACK</h2>
+              <p class="text-[#272727]">
+                Limited stocks available. Grab it now!
+              </p>
+              <button
+                class="bg-[#FF6543] px-[42px] py-[18px] rounded-[30px] mt-[36px] text-white"
+              >
+                SHOP COLLECTION
+              </button>
+            </div>
+            <div class="right">
+              <img
+                class="w-[500px] h-[500px]"
+                src="https://my.canon/media/image/2026/03/18/ea0b053f78ab4609851fc87f6034d18c_PowerShot+G7+X+Mark+III+Graphite+30th+Anniversary+Front_362%C3%97320.png  "
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div
+            class="max-w-[1240px] m-auto justify-center items-center gap-[80px] flex"
+          >
+            <div class="left">
+              <h2 class="text-[#272727] text-[51px]">
+                IPHONE 18 PRO MAX BLACK
+              </h2>
+              <p class="text-[#272727]">
+                Limited stocks available. Grab it now!
+              </p>
+              <button
+                class="bg-[#FF6543] px-[42px] py-[18px] rounded-[30px] mt-[36px] text-white"
+              >
+                SHOP COLLECTION
+              </button>
+            </div>
+            <div class="right">
+              <img
+                class="w-[500px] h-[500px]"
+                src="https://prod-cdn.prod.asbis.io/s3size/el:t/f:webp/rt:fill/plain/s3://cms/product/a5/d8/a5d80bd5e664060a1d1cd024fb3848c8/261014100023295696.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div
+            class="max-w-[1240px] m-auto justify-center items-center gap-[80px] flex"
+          >
+            <div class="left">
+              <h2 class="text-[#272727] text-[51px]">APPLE MACBOOK PRO 16</h2>
+              <p class="text-[#272727]">
+                Limited stocks available. Grab it now!
+              </p>
+              <button
+                class="bg-[#FF6543] px-[42px] py-[18px] rounded-[30px] mt-[36px] text-white"
+              >
+                SHOP COLLECTION
+              </button>
+            </div>
+            <div class="right">
+              <img
+                class="w-[500px] h-[500px]"
+                src="https://maxcom.uz/storage/product/RwATn6ssQl143mBQk2kGiOOKxqptPyyFuAb1fQK9.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        speed: 1000,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
