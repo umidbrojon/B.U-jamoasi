@@ -3,3 +3,10 @@
 * {
   font-family: "Space Grotesk";
 }
+.hero .swiper svg {
+  display: none;
+}
+.swiper i {
+  font-size: 40px;
+  color: #ff6543;
+}
