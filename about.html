@@ -13,6 +13,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header class="max-w-[1240px] m-auto my-[11px]">
@@ -28,9 +32,11 @@
         </li>
       </ul>
       <div class="flex justify-between mt-[15px] items-center">
-        <h2 class="text-[31px] font-medium">
-          SHOP<span class="font-thin">LITE</span>
-        </h2>
+        <a href="/index.html"
+          ><h2 class="text-[31px] font-medium">
+            SHOP<span class="font-thin">LITE</span>
+          </h2></a
+        >
         <ul class="flex gap-[40px]">
           <li class="text-[##272727] hover:text-[#FF6543]">
             <a href="">HOME</a>
@@ -132,6 +138,134 @@
           GO TO SHOP
         </button>
       </div>
+    </div>
+    <div class="max-w-[1240px] m-auto">
+      <h2 class="text-[30px] text-[#272727] font-thin">CUSTOMERS REVIEWS</h2>
+      <div
+        class="cards grid grid-cols-3 gap-[30px] mt-[36px] items-center"
+      ></div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="border border-[#E0E0E0] rounded-[10px] p-[30px]">
+              <p class="w-[320px] text-[#272727] mb-[20px]">
+                “I stumbled upon this tech store while searching for a new
+                laptop, and I couldn't be happier with my experience! The staff
+                was incredibly knowledgeable and guided me through the process
+                of choosing the perfect device for my needs. Highly
+                recommended!”
+              </p>
+              <div class="icns text-[#FF6543] text-[12px]">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="text-[#272727] font-bold">Emma Chamberlin</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="border border-[#E0E0E0] rounded-[10px] p-[30px]">
+              <p class="w-[320px] text-[#272727] mb-[20px]">
+                “This tech store is my go-to for all things tech! Whether it's a
+                new smartphone, accessories, or even troubleshooting advice,
+                they've always got me covered. The staff is friendly, and their
+                expertise is unmatched. Trust me; you won't regret shopping
+                here!”
+              </p>
+              <div class="icns text-[#FF6543] text-[12px]">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="text-[#272727] font-bold">Thomas John</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="border border-[#E0E0E0] rounded-[10px] p-[30px]">
+              <p class="w-[320px] text-[#272727] mb-[20px]">
+                “I recently purchased a smartwatch from this tech store, and I'm
+                absolutely thrilled with my purchase! Not only did they have an
+                extensive selection to choose from, but their team helped me
+                find the perfect fit for my lifestyle.”And I always choose this
+                shop to buy things.
+              </p>
+              <div class="icns text-[#FF6543] text-[12px]">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="text-[#272727] font-bold flex-col">Kevin Bryan</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="border border-[#E0E0E0] rounded-[10px] p-[30px]">
+              <p class="w-[320px] text-[#272727] mb-[20px]">
+                “I stumbled upon this tech store while searching for a new
+                laptop, and I couldn't be happier with my experience! The staff
+                was incredibly knowledgeable and guided me through the process
+                of choosing the perfect device for my needs. Highly
+                recommended!”
+              </p>
+              <div class="icns text-[#FF6543] text-[12px]">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="text-[#272727] font-bold">Emma Chamberlin</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="border border-[#E0E0E0] rounded-[10px] p-[30px]">
+              <p class="w-[320px] text-[#272727] mb-[20px]">
+                “I stumbled upon this tech store while searching for a new
+                laptop, and I couldn't be happier with my experience! The staff
+                was incredibly knowledgeable and guided me through the process
+                of choosing the perfect device for my needs. Highly
+                recommended!”
+              </p>
+              <div class="icns text-[#FF6543] text-[12px]">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="text-[#272727] font-bold">Emma Chamberlin</h4>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
     </div>
   </body>
 </html>
